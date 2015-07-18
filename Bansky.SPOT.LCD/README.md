@@ -5,6 +5,9 @@ _(October 1st 2009)_
 
 .NET Micro Framework support for HD44780 LCD Driver. HD44780 requires 11 parallel bits to operate (or 7 based on configuration), this would waste 11 GPIOs of the CPU.  This library support connectivity between CPU and HD44780 via shift register (3 GPIOs only) or via I2C port extender. 
 
+More information and circuits can be found in the original blog post:
+[http://bansky.net/blog/2008/10/interfacing-lcd-using-i2c-port-extender/](http://bansky.net/blog/2008/10/interfacing-lcd-using-i2c-port-extender/)
+
 ##HC4094 Shift Register
 Shift register takes serial bits and then sends them all at once to parallel output.   
 
@@ -54,6 +57,3 @@ PCF8574P is an gpio extender that receives bits over I2C bus and then sends them
 	lcd.Write("Micro Framework");   // Write second line of message
 
 ![Wiring](http://bansky.net/blog_stuff/images/alphanumericLCD_I2C.png)
-
-More information and circuits can be found here:
-[http://bansky.net/blog/2008/10/interfacing-lcd-using-i2c-port-extender/](http://bansky.net/blog/2008/10/interfacing-lcd-using-i2c-port-extender/)

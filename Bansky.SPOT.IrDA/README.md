@@ -4,6 +4,8 @@ Infrared Receiver Driver for Sony TV Remotes
 _(April 19th 2009)_
 
 .NET Micro Framework drivers for infrared receivers similar to TSOP4838.
+More information and circuits can be found in the original blog post:
+[http://bansky.net/blog/2009/04/microframework-device-controlled-via-tv-remote/](http://bansky.net/blog/2009/04/microframework-device-controlled-via-tv-remote/)
 
 ##SonyReceiver 
 Simple driver that creates event whenever TV Remote command is received and decoded.
@@ -52,6 +54,3 @@ WPF input provider that creates WPF button event whenever TV Remote command is r
 	GPIOButtonInputProvider inputProvider = new GPIOButtonInputProvider(null);
 
 
-More information and circuits can be found here:
-
-[http://bansky.net/blog/2009/04/microframework-device-controlled-via-tv-remote/](http://bansky.net/blog/2009/04/microframework-device-controlled-via-tv-remote/)

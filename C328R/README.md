@@ -3,7 +3,8 @@ C328R Jpeg camera for .NET Micro Framework
 
 _(March 2nd 2008)_
 
-C328R is Jpeg camera connected via serial port to micro processor
+C328R is Jpeg camera connected via serial port to micro processor. More information and circuits can be found here:
+[http://bansky.net/blog/2008/03/jpeg-camera-and-micro-framework/](http://bansky.net/blog/2008/03/jpeg-camera-and-micro-framework/)
 
 	// Create camera  
 	C328R camera = new C328R(new SerialPort.Configuration(
@@ -41,5 +42,3 @@ C328R is Jpeg camera connected via serial port to micro processor
 	// Give 0 processDelay - because we already gave 1000 ms.
 	camera.GetJpegPicture(C328R.PictureType.Snapshot, out pictureData, 0);
 
-More information and circuits can be found here:
-[http://bansky.net/blog/2008/03/jpeg-camera-and-micro-framework/](http://bansky.net/blog/2008/03/jpeg-camera-and-micro-framework/)

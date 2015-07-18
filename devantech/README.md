@@ -5,6 +5,9 @@ _Version: 1.0 (October 3rd 2007)_
 
 C# drivers for popular devices from [Devantech Ltd](http://www.robot-electronics.co.uk). Project contains C# drivers for few of the popular electronic devices (sensors, drivers, compass) from Robot Electronics. Drivers has been tested with .NET Micro Framework on [Embedded Fusion Tahoe board](http://www.embeddedfusion.com/default.aspx?id=90). 
 
+More information and circuits can be found in the original blog post:
+[http://bansky.net/blog/2008/10/interfacing-lcd-using-i2c-port-extender/](http://bansky.net/blog/2008/10/interfacing-lcd-using-i2c-port-extender/)
+
 Full C# source code and documentation is available to download. 
 
   - SRF02 Ultrasonic Ranger 

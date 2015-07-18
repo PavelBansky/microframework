@@ -3,7 +3,7 @@ SMTP library for .NET Micro Framework
 
 _(August 2nd 2008)_
 
-Library introduces e-mail sending capabilities to .NET Micro Framework applications.
+Library to send e-mails from .NET Micro Framework applications. More information can be found in the [original blog article.](http://bansky.net/blog/2008/08/sending-e-mails-from-net-micro-framework/)
 
 
 ##SmtpClient
@@ -86,3 +86,14 @@ Library introduces e-mail sending capabilities to .NET Micro Framework applicati
 	{
 	    smtp.Dispose();
 	}
+
+##Additional headers
+
+	MailMessage message = new MailMessage("john@doe.com",
+	                                      "foo@bar.net",
+	                                      "Good news",
+	                                      "How are you Foo?");
+	
+	message.Headers = "X-Priority: 1\r\n";
+	message.Headers += "X-MSMail-Priority: High\r\n";
+	message.Headers += "X-Mailer: Micro Framework mail sender\r\n";
