@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraApp30", "CameraApp30\CameraApp30.csproj", "{D99BF144-9EBF-411B-95CA-7E6FB5863843}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D99BF144-9EBF-411B-95CA-7E6FB5863843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D99BF144-9EBF-411B-95CA-7E6FB5863843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D99BF144-9EBF-411B-95CA-7E6FB5863843}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D99BF144-9EBF-411B-95CA-7E6FB5863843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D99BF144-9EBF-411B-95CA-7E6FB5863843}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D99BF144-9EBF-411B-95CA-7E6FB5863843}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
