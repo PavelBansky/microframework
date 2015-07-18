@@ -19,6 +19,10 @@ Send email with attachment from Micro Framework
 
 Driver for C328R Jpeg camera
 
+###Tetris
+
+Tetris game as a demo of Micro Framework capabilities
+
 ###devantech
 
 Drivers for different hardware from Devantech Ltd.
